@@ -1,18 +1,18 @@
 const projects = [
     {
-      title: "AI Chat Application",
-      description: "Real-time chat app with AI-powered responses and message history",
-      tags: ["Next.js", "OpenAI API", "Supabase"],
+      title: "AI Medical Assistant",
+      description: "Smart AI chatbot for medical consultations and health advice",
+      tags: ["Gemini API", "RAG", "Steamlit", "Python"],
     },
     {
-      title: "Task Management System",
-      description: "Collaborative task manager with real-time updates and team features",
-      tags: ["React", "Firebase", "Tailwind CSS"],
+      title: "Thangka Ecommerce Platform",
+      description: "Full featured ecommerce platform for traditional Thangka art",
+      tags: ["Next js", "Stripe", "Clerk js", "TypeScript"],
     },
     {
-      title: "Portfolio Website",
+      title: "House Price Predictor",
       description: "Personal portfolio showcasing projects and technical skills",
-      tags: ["Next.js", "Tailwind CSS", "TypeScript"],
+      tags: ["Flask", "Bootstrap", "MongoDB", "Python"],
     },
   ]
   
