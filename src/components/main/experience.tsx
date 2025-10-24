@@ -2,17 +2,12 @@ import { Briefcase } from "lucide-react"
 
 const experiences = [
   {
-    company: "TechStart Inc.",
-    position: "Software Engineer Intern",
-    period: "June 2024 - August 2024",
-    description: "Built REST APIs and optimized database queries, reducing load time by 40%",
-  },
-  {
-    company: "Digital Solutions Co.",
+    company: "Pacific Human Resources",
     position: "Frontend Developer Intern",
-    period: "January 2024 - April 2024",
-    description: "Developed responsive UI components and improved accessibility scores",
+    period: "June 2024 - August 2024",
+    description: "Worked with React js to create responsive, user-friendly, and visually appealing interfaces.",
   },
+  
 ]
 
 export default function Experience() {

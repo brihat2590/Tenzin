@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-      <section id="home" className="space-y-6 pt-6 py-2 pb-8 text-center ">
+      <section id="home" className="space-y-6 pt-6 py-2  text-center ">
         <div className="flex justify-center">
           <div className="w-32 h-32 rounded-full flex items-center justify-center ">
             <img

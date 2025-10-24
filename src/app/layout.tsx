@@ -17,6 +17,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Tenzin",
   description: "Portfolio of Tenzin Norgye Lama",
+
+  icons:{
+    icon:"/lord1.jpeg"
+  }
 };
 
 export default function RootLayout({
@@ -27,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-black/90  `}
+        className={`${geistSans.variable} ${geistMono.variable} bg-[#121212]  `}
        >
         
       

@@ -71,14 +71,14 @@ const DATA: {
 } = {
   navbar: [
     { href: "#", icon: HomeIcon, label: "Home" },
-    { href: "#", icon: PencilIcon, label: "Blog" },
+    // { href: "#", icon: PencilIcon, label: "Blog" },
   ],
   contact: {
     social: {
-      GitHub: { name: "GitHub", url: "#", icon: Icons.github },
-      LinkedIn: { name: "LinkedIn", url: "#", icon: Icons.linkedin },
+      GitHub: { name: "GitHub", url: "https://github.com/Tenzin63622", icon: Icons.github },
+      LinkedIn: { name: "LinkedIn", url: "https://www.linkedin.com/in/tenzin-norgyelamatamang-95640a2a7/", icon: Icons.linkedin },
       X: { name: "X", url: "#", icon: Icons.x },
-      email: { name: "Send Email", url: "#", icon: Icons.email },
+      // email: { name: "Send Email", url: "#", icon: Icons.email },
     },
   },
 }
@@ -95,6 +95,8 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <Link
                     href={item.href}
+                    
+                    
                     aria-label={item.label}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
@@ -115,8 +117,9 @@ export default function Navbar() {
             <DockIcon key={name}>
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <Link
+                  <a
                     href={social.url}
+                    target="_blank" rel="noopener noreferrer"
                     aria-label={social.name}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
@@ -124,7 +127,7 @@ export default function Navbar() {
                     )}
                   >
                     <social.icon className="size-4" />
-                  </Link>
+                  </a>
                 </TooltipTrigger>
                 <TooltipContent>
                   <p>{social.name}</p>

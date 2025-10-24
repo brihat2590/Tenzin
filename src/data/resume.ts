@@ -1,16 +1,12 @@
 import { HomeIcon, NotebookIcon } from "lucide-react"
 
 export const DATA = {
-    name: "Alex Chen",
-    initials: "AC",
-    description: "Computer Science Student | Full-Stack Developer | Problem Solver",
-    summary:
-      "Passionate computer science student with a focus on building scalable web applications. I love turning complex problems into simple, elegant solutions through clean code and innovative thinking.",
+    
   
     work: [
       {
-        company: "TechStart Inc.",
-        title: "Software Engineer Intern",
+        company: "",
+        title: "Frontend Developer Intern",
         start: "June 2024",
         end: "August 2024",
         description: "Built REST APIs and optimized database queries, reducing load time by 40%",

@@ -4,7 +4,7 @@ export default function About() {
         <h2 className="text-2xl font-bold">About</h2>
         <div className="space-y-3 text-gray-300 text-sm leading-relaxed">
           <p>
-            Third-year CS student with 2+ years of hands-on experience in web development. I've worked across the full
+            Fourth-year CS student with 2+ years of hands-on experience in web development. I've worked across the full
             stack, from crafting intuitive UIs to architecting robust backends.
           </p>
           <p className="italic text-gray-400">
