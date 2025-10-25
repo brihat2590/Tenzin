@@ -4,9 +4,9 @@ export default function Hero() {
         <div className="flex justify-center">
           <div className="w-32 h-32 rounded-full flex items-center justify-center ">
             <img
-              src="https://res.cloudinary.com/dlrpmew9d/image/upload/v1761117891/tenxinFormal_ltlfx1.jpg"
+              src="/unnamed.jpeg"
               alt="Tenzin Norgye Lama Tamang"
-              className="w-28 h-28 rounded-full object-cover"
+              className="w-30 h-30 rounded-full object-cover hover:scale-105"
             />
           </div>
         </div>

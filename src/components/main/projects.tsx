@@ -1,16 +1,18 @@
 const projects = [
+
+  {
+    title: "Thangka Ecommerce Platform",
+    description: "Full featured ecommerce platform for traditional Thangka art",
+    tags: ["Next js", "Stripe", "Clerk js", "TypeScript"],
+    live:"https://ecommerce33.vercel.app/"
+  },
     {
       title: "AI Medical Assistant",
       description: "Smart AI chatbot for medical consultations and health advice",
       tags: ["Gemini API", "RAG", "Steamlit", "Python"],
       live:"https://medicalsuggesterkmedi.streamlit.app/"
     },
-    {
-      title: "Thangka Ecommerce Platform",
-      description: "Full featured ecommerce platform for traditional Thangka art",
-      tags: ["Next js", "Stripe", "Clerk js", "TypeScript"],
-      live:"https://ecommerce33.vercel.app/"
-    },
+    
     {
       title: "House Price Predictor",
       description: "Personal portfolio showcasing projects and technical skills",

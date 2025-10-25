@@ -2,7 +2,7 @@
 
 import React from "react"
 import Link from "next/link"
-import { CalendarIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react"
+import { CalendarIcon, FileTextIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
@@ -71,7 +71,7 @@ const DATA: {
 } = {
   navbar: [
     { href: "#", icon: HomeIcon, label: "Home" },
-    // { href: "#", icon: PencilIcon, label: "Blog" },
+    { href: "/resume.pdf", icon: FileTextIcon, label: "resume" },
   ],
   contact: {
     social: {
@@ -93,18 +93,32 @@ export default function Navbar() {
             <DockIcon key={item.label}>
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <Link
-                    href={item.href}
-                    
-                    
-                    aria-label={item.label}
-                    className={cn(
-                      buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12 rounded-full"
-                    )}
-                  >
-                    <item.icon className="size-4" />
-                  </Link>
+                {item.label === "Resume" ? (
+          <a
+            href={item.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={item.label}
+            className={cn(
+              buttonVariants({ variant: "ghost", size: "icon" }),
+              "size-12 rounded-full"
+            )}
+          >
+            <item.icon className="size-4" />
+          </a>
+        ) : (
+          <Link
+            href={item.href}
+            aria-label={item.label}
+            className={cn(
+              buttonVariants({ variant: "ghost", size: "icon" }),
+              "size-12 rounded-full"
+            )}
+          >
+            <item.icon className="size-4" />
+          </Link>
+        )}
+                  
                 </TooltipTrigger>
                 <TooltipContent>
                   <p>{item.label}</p>

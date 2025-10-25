@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description: "Portfolio of Tenzin Norgye Lama",
 
   icons:{
-    icon:"/lord1.jpeg"
+    icon:"/lord.jpeg"
   }
 };
 
